@@ -1,3 +1,4 @@
+from __future__ import annotations
 from dataclasses import dataclass
 
 ALLOWED_CATEGORIES = {"delay", "damaged", "missing", "billing", "other"}

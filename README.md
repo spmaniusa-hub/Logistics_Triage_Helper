@@ -2,6 +2,11 @@
 
 Final Project submission for *Basics of Prompting for Developers and AI Introduction*.
 
+## Documentation
+
+- **[System Design Document](DESIGN_DOCUMENT.md)**: System architecture, component breakdowns, data models, threat modeling, and queue routing matrix.
+- **[User Guide & Operations Manual](USER_GUIDE.md)**: Setup instructions, step-by-step workflow, verification commands, prompt library quick reference, and FAQ.
+
 ## Six Deliverables (Index)
 
 1. **Deliverable 1 (Prompt Library):** [`deliverable_1_prompt_library.md`](deliverable_1_prompt_library.md) (also available as `prompt_library.md`)
