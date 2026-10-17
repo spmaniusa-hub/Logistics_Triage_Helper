@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "required": [
+    "category",
+    "priority",
+    "summary",
+    "needs_human"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "category": {
+      "enum": [
+        "delay",
+        "damaged",
+        "missing",
+        "billing",
+        "other"
+      ]
+    },
+    "priority": {
+      "enum": [
+        "P1",
+        "P2",
+        "P3",
+        "P4"
+      ]
+    },
+    "summary": {
+      "type": "string",
+      "maxLength": 160
+    },
+    "needs_human": {
+      "type": "boolean"
+    }
+  }
+}

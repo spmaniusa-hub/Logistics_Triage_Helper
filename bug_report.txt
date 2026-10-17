@@ -1,0 +1,9 @@
+Title: Complaints flagged for human review are being auto-routed
+
+A support lead noticed that a complaint the triage step had flagged for human
+review went straight to the automated acknowledgement queue instead of a person.
+Example: a triage result with category "damaged", priority "P1", a one-line
+summary, and needs_human true produced an intake record with auto_route true.
+
+Observed in the training environment with Python 3.12.
+No exception is shown.
