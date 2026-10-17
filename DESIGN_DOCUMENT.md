@@ -3,7 +3,7 @@
 **Project:** Northgate Logistics Complaint Triage Helper Prototype  
 **Version:** 1.0.0  
 **Status:** Approved / Prototype  
-**Author:** AI Engineering & Logistics Operations Team  
+**Author:** Mani Subramanian (Student ID: 260125911)  
 **Date:** October 2026  
 
 ---
